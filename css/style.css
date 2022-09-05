@@ -59,6 +59,16 @@
     cursor: pointer;
     transition: 0.5s;
 }
+@media (max-width: 768px){
+  .container h1{
+    font-size: x-small;
+    margin-top: 20px;
+  }
+  .footer p{
+    font-size: x-small !important;
+    font-weight: 400;
+  }
+}
 .container .card{
     width: 320px;
     margin: 0 auto;
